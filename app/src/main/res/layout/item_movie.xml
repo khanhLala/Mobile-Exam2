@@ -5,39 +5,30 @@
     android:layout_height="wrap_content"
     android:layout_margin="8dp"
     app:cardCornerRadius="12dp"
-    app:cardElevation="6dp">
-
+    app:cardElevation="4dp">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:padding="16dp">
-
         <TextView
-            android:id="@+id/tvName"
-            android:layout_width="match_parent"
+            android:id="@+id/tvMovieTitle"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="18sp"
-            android:textColor="@color/black"
-            android:textStyle="bold" />
-
-        <TextView
-            android:id="@+id/tvPrice"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textColor="#E91E63"
-            android:textSize="16sp"
             android:textStyle="bold"
-            android:layout_marginTop="4dp" />
-
+            android:textColor="@color/black" />
+        <TextView
+            android:id="@+id/tvMovieGenre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#666666" />
         <Button
-            android:id="@+id/btnAddToCart"
+            android:id="@+id/btnViewShowtimes"
             style="@style/Widget.MaterialComponents.Button.TextButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="end"
-            android:text="@string/add_to_cart"
-            android:textAllCaps="false"
-            android:textColor="#3F51B5" />
+            android:text="Suất chiếu" />
     </LinearLayout>
 </androidx.cardview.widget.CardView>
