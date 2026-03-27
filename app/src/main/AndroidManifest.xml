@@ -23,10 +23,10 @@
             android:name=".activities.LoginActivity"
             android:exported="false" />
         <activity
-            android:name=".activities.ProductDetailActivity"
+            android:name=".activities.ShowtimesActivity"
             android:exported="false" />
         <activity
-            android:name=".activities.CartActivity"
+            android:name=".activities.SeatSelectionActivity"
             android:exported="false" />
         <activity
             android:name=".activities.InvoiceActivity"
