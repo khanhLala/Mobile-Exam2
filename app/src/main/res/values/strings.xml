@@ -1,3 +1,25 @@
 <resources>
-    <string name="app_name">Exam2</string>
+    <string name="app_name">Ticket App</string>
+    <string name="welcome_guest">Chào mừng, Khách!</string>
+    <string name="welcome_user">Chào mừng, %1$s!</string>
+    <string name="login">Đăng nhập</string>
+    <string name="logout">Đăng xuất</string>
+    <string name="movies">Phim</string>
+    <string name="theaters">Rạp</string>
+    <string name="showtimes">Suất chiếu</string>
+    <string name="history">Lịch sử</string>
+    <string name="book_ticket">Đặt vé</string>
+    <string name="price">Giá: </string>
+    <string name="vnd">VNĐ</string>
+    <string name="back_home">Quay lại trang chủ</string>
+    <string name="invoice">HÓA ĐƠN</string>
+    <string name="confirm_booking">Xác nhận đặt vé</string>
+    <string name="select_seat">Vui lòng chọn ghế</string>
+    <string name="login_required">Vui lòng đăng nhập để tiếp tục</string>
+    <string name="username">Tên đăng nhập</string>
+    <string name="password">Mật khẩu</string>
+
+    <!-- Các chuỗi bổ sung để sửa lỗi AAPT -->
+    <string name="order_history">Lịch sử đặt vé</string>
+    <string name="add_to_cart">Thêm vào giỏ</string>
 </resources>
